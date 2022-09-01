@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+    color: white;
+    padding-bottom: 9%;
+}
+
+.uppermain{
+    font-family: "Poppins";
+    background-image: linear-gradient(to bottom right, #7030cc, #7634d4);
+    color: white;
+    padding: 1.5% 6%;
+}
+
+.Section-1{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1div{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    width:550px;
+    height: 550px;
+}
+
+.start-heading{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+
+.img2{
+    width:550px;
+    height: 550px;
+    position: relative;
+    left:80px;
+}
+
+.head-text{
+    padding-right: 10%;
+
+}
+
+.peopleimg{
+    width:40%;
+    position: relative;
+    bottom: 80px;
+}
+
+.imgbox{
+    text-align: center;
+    padding: 2% 6%;
+    display: flex;
+    gap: 90px;
+    font-family: "Poppins";
+}
+
+.box{
+    padding-right: 50px;
+    width:200px;
+    height: 340px;
+    background-color: white;
+    border-radius: 20px;
+    filter:drop-shadow(3px 5px 2px rgb(0 0 0 / .2));
+}
+
+.newbox{
+    /* height: 300px; */
+    position: relative;
+    left:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newbox p,h4{
+    position: relative;
+    bottom:60px;
+}
+
+
+.head2 h3{
+    display: inline;
+}
+.head2 p{
+    padding-left: 35px;
+}
+
+.c1{
+    padding-right: 20px;
+    color:#f28a3f;
+}
+
+.c2{
+    padding-right: 20px;
+    color:#7bca3c;
+}
+.c3{
+    padding-right: 20px;
+    color:#3f9cf2;
+}
+
+.listitem{
+    padding: 1% 0%;
+}
+
+.head2{
+    width:450px;
+    position: relative;
+    right:100px;
+}
+
+.h-text{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 2rem;
+    padding: 2% 30%;
+}
+.purple {
+    position: absolute;
+    background: #7030cc;
+    height: 190px;
+    border-radius: 10px;;
+    width: 250px;
+    bottom:30px;
+    right:-25px;
+    z-index: -1;
+  }
+.active{
+    color: white;
+}
+
+.circ{
+    height: 120px;
+    width:120px;
+    position: relative;
+    background-color:gray;
+    border-radius: 100%;
+    display: inline;
+    z-index: 1;
+    opacity: 0.2;
+    top:20px;
+}
+
+.p1{
+    color: #c78b8b;
+}
+
+.p2{
+    color: #f28a3f;
+}
+
+.p3{
+    color: #759a9a;
+}
+
+.p4{
+    color: #a343ae;
+}
+
+.ci1{
+    background-color: #c78b8b;
+}
+
+.ci2{
+    background-color: #f28a3f;
+}
+
+.ci3{
+    background-color: #759a9a;
+}
+
+.ci4{
+    background-color: #a343ae;
+}
+
+
+.logo{
+    width:120px;
+    height: 40px;
+    position: relative;
+    top:5px;
+}
+
+.item{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.options{
+    position: relative;
+    left:200px;
+    top:10px;
+}
+
+.talk{
+    width: 120px;
+    height: 35px;
+    background-color: #3f9cf2;
+    color:white;
+    border-style:none;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 0% 2%;
+}
+
+.smol-btn{
+    width:200px;
+    height: 50px;
+    background-color: #3f9cf2;
+    color:white;
+    border-style:none;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 2% 5%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:976px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;;
+    }
+    .options{
+        left: 0px;
+        top:0px;
+    }
+    .Section-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .start-heading{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .head2{
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img2{
+        left: 0px;
+    }
+    .imgbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-text{
+        text-align: center;
+        padding: 2% 10%;
+    }
+    .sec1div{
+        text-align: center;
+        align-items: center;
+    }
+    .start-heading{
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:768px){
+    .options{
+        visibility: hidden;
+    }
+    .head2{
+        left:30px;
+    }
+    .h-text{
+        padding: 2% 10%;
+    }
+}
